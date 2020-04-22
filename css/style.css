@@ -35,6 +35,15 @@ section{
   padding-bottom: 2.5rem;
 }
 
+button {
+  background-color: #EAA166;
+  color: #07404C;
+  width: 210px;
+  height: 69px;
+  margin: 75px;
+  text-align: center;
+}
+
 section.navbar{
   background-color: white;
   float: right;
@@ -60,6 +69,7 @@ section.footer{
   width: 100%;
 }
 
+
 @media screen and (min-width: 768px){
   .container {
     width: 70rem;
@@ -78,12 +88,3 @@ section{
   margin: 1%;
   width: 98%;
 }
-
-
-
-/*  @media screen and (min-width: 991px)
-{
-  .container {
-    width: 75%;
-    float: center;
-  }
